@@ -9,6 +9,8 @@ class Ball:
         self.w = w
         self.h = h
         self.speed = speed
+        self.speed_x = -self.speed
+        self.speed_y = self.speed
         self.color = color
 
     def draw(self):
